@@ -6,13 +6,13 @@
     <title>Unity WebGL Player | SolanaTestApp</title>
   </head>
   <body style="text-align: center">
-    <canvas id="unity-canvas" scrolling="no" width=512 height=512 style="width: 512px; height: 512px; background: #231F20; border:0; overflow:hidden"></canvas>
-    <script src="Builds/builds.loader.js"></script>
+    <canvas id="unity-canvas" width=512 height=512 style="width: 512px; height: 512px; background: #231F20"></canvas>
+    <script src="Build/builds.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "Builds/builds.data.unityweb",
-        frameworkUrl: "Builds/builds.framework.js.unityweb",
-        codeUrl: "Builds/builds.wasm.unityweb",
+        dataUrl: "Build/builds.data.unityweb",
+        frameworkUrl: "Build/builds.framework.js.unityweb",
+        codeUrl: "Build/builds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SolanaTestApp",
