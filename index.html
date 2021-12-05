@@ -7,12 +7,12 @@
   </head>
   <body style="text-align: center">
     <canvas id="unity-canvas" scrolling="no" width=512 height=512 style="width: 512px; height: 512px; background: #231F20; border:0; overflow:hidden"></canvas>
-    <script src="https://ipfs.io/ipfs/QmVTyBkfgdr72KSrEozsHW3wkMU4ECRb1xC6kygtmpsSqr/builds.loader.js"></script>
+    <script src="Builds/builds.loader.js"></script>
     <script>
       createUnityInstance(document.querySelector("#unity-canvas"), {
-        dataUrl: "https://ipfs.io/ipfs/QmVTyBkfgdr72KSrEozsHW3wkMU4ECRb1xC6kygtmpsSqr/builds.data.unityweb",
-        frameworkUrl: "https://ipfs.io/ipfs/QmVTyBkfgdr72KSrEozsHW3wkMU4ECRb1xC6kygtmpsSqr/builds.framework.js.unityweb",
-        codeUrl: "https://ipfs.io/ipfs/QmVTyBkfgdr72KSrEozsHW3wkMU4ECRb1xC6kygtmpsSqr/builds.wasm.unityweb",
+        dataUrl: "Builds/builds.data.unityweb",
+        frameworkUrl: "Builds/builds.framework.js.unityweb",
+        codeUrl: "Builds/builds.wasm.unityweb",
         streamingAssetsUrl: "StreamingAssets",
         companyName: "DefaultCompany",
         productName: "SolanaTestApp",
